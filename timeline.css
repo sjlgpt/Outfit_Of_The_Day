@@ -1,0 +1,49 @@
+
+.timeline{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+.Footer Section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+.PostHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+   
+}
+.username{
+    font-weight: bolder;
+}
+.Like{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+    
+}
+

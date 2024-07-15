@@ -1,0 +1,19 @@
+
+.Theme{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 80px;
+
+}
+
+.Upload{
+    margin-top: 20%;
+    margin-left: 13%;
+    height: 200px;
+    width:200px;
+    border-radius: 50%;
+    border:none;
+}

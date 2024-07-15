@@ -1,0 +1,37 @@
+.sidenav{
+    position: fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+
+}
+.sidenav__buttons {
+    display:flex;
+    flex-direction: column;
+
+}
+.sidenav__button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: 0;
+    border: 0;
+    margin: 5px 10px 5px 10px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 15px;
+    width: 100%;
+}
+.sidenav__button:hover{
+    cursor: pointer;
+    background-color:azure;
+}
+.sidenav__button > span {
+    font-size: 10px;
+    font-weight:bolder;
+    margin-left: 10px;
+}
+.sidenav__more{
+    position: fixed;
+    bottom: 3px;
+}
